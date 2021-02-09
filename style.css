@@ -70,6 +70,11 @@ h1, h2 {
 
 .photos {
 	width: 100%;
+	display: inline;
+	position: absolute;
+}
+.contacts {
+	position: relative;
 }
 .item{
 	/* Set display to be inline and block */
