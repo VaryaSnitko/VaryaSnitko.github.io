@@ -1,4 +1,15 @@
-let openButton;
+let openButton = document.getElementById("open-button");
+let closeButton =document.getElementById("close-button");
+let popup = document.getElementById("popup");
 
-let firstNumber = 30;
-let secondNumber=5;
+popup.style.display = "none";
+
+openButton.addEventListener('click', showPopup);
+
+function showPopup(){
+	popup.style.display = "block";
+}
+closeButton.addEventListener('click', hidePopup);
+function hidePopup(){
+	popup.style.display = "none";
+}

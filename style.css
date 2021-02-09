@@ -14,8 +14,11 @@ ul.bar{
 
 li {
   display: inline;
-
   float: right;
+}
+
+li.home {
+	 color: #790F79;
 }
 
 li.active {
@@ -105,10 +108,15 @@ h1, h2 {
     font-size: 20px;
     font-family: arial;
 }
-#help {
+
+#open-botton {
 	position: fixed;
 	bottom:  10px;
     margin-left: 0px;
+}
+
+#popup{
+ background: pink;
 }
 
 
